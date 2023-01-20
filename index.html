@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Input Form</title>
+  </head>
+  <body>
+    <form>
+      <label>Enter Text:</label>
+      <input type="text" id="input-field" />
+      <input type="button" value="Submit" onclick="submitForm()" />
+    </form>
+    <script>
+      function submitForm() {
+        var input = document.getElementById("input-field").value;
+        console.log(input);
+      }
+    </script>
+  </body>
+</html>
